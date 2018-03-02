@@ -73,7 +73,9 @@ public class CitationInputPane extends GridPane {
         paidStatus = status;
     }
 
-    
+    /**
+     * constructor of the GUI for the GridPane
+     */
     public CitationInputPane() {
 
         VBox vbox1 = new VBox();
