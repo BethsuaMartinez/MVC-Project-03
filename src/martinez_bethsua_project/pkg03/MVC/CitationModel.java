@@ -82,6 +82,10 @@ public class CitationModel {
         return citationsDatabase;
     }
 
+    /**
+     * This method returns the current citation
+     * @return the current citation
+     */
     ParkingTicketCitation getCurrentTicket() {
         if (this.citationsDatabase.isEmpty()) {
             return null;
